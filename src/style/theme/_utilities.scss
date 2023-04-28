@@ -1,0 +1,30 @@
+.fw-medium {
+    font-weight: $font-weight-medium;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.border-end {
+    border-right: 1px solid $black-70!important;
+}
+
+.fs-1 {
+    @include media-breakpoint-down(lg) {
+        font-size: .75rem!important;
+    }
+}
+
+.pt-7 {
+    @include media-breakpoint-between(xs, lg) {
+        padding-top: 10rem!important;
+    }
+}
+
+.pb-6 {
+    @include media-breakpoint-down(lg) {
+        padding-bottom: 3rem!important;
+    }
+}
