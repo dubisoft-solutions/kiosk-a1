@@ -11309,7 +11309,7 @@ textarea.form-control-lg {
 .btn-link {
   font-size: 0.875rem;
   --bs-link-color: #1599BE;
-  --bs-btn-hover-color: #1599BE;
+  --bs-btn-hover-color: #6D6D6D;
 }
 
 .form-control {
